@@ -7,7 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+//! Project version number for ZZPings.
+FOUNDATION_EXPORT double ZZPingsVersionNumber;
 
+//! Project version string for ZZPings.
+FOUNDATION_EXPORT const unsigned char ZZPingsVersionString[];
 @interface ZZPings : NSObject
 
 @end

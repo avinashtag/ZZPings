@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		B954CBFD203D4DDE00B8D9D4 /* ZZPings.m in Sources */ = {isa = PBXBuildFile; fileRef = B954CBFC203D4DDE00B8D9D4 /* ZZPings.m */; };
 		B954CBFE203D4DDE00B8D9D4 /* ZZPings.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B954CBFB203D4DDE00B8D9D4 /* ZZPings.h */; };
+		B954CC09203D4FBD00B8D9D4 /* PQAPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = B954CC06203D4FBD00B8D9D4 /* PQAPacket.m */; };
+		B954CC0A203D4FBD00B8D9D4 /* ZZPing.m in Sources */ = {isa = PBXBuildFile; fileRef = B954CC08203D4FBD00B8D9D4 /* ZZPing.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +30,11 @@
 		B954CBF8203D4DDE00B8D9D4 /* libZZPings.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libZZPings.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B954CBFB203D4DDE00B8D9D4 /* ZZPings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZPings.h; sourceTree = "<group>"; };
 		B954CBFC203D4DDE00B8D9D4 /* ZZPings.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZPings.m; sourceTree = "<group>"; };
+		B954CC04203D4FBC00B8D9D4 /* ICMPHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICMPHeader.h; sourceTree = "<group>"; };
+		B954CC05203D4FBD00B8D9D4 /* PQAPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PQAPacket.h; sourceTree = "<group>"; };
+		B954CC06203D4FBD00B8D9D4 /* PQAPacket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PQAPacket.m; sourceTree = "<group>"; };
+		B954CC07203D4FBD00B8D9D4 /* ZZPing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZPing.h; sourceTree = "<group>"; };
+		B954CC08203D4FBD00B8D9D4 /* ZZPing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZPing.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +69,11 @@
 			children = (
 				B954CBFB203D4DDE00B8D9D4 /* ZZPings.h */,
 				B954CBFC203D4DDE00B8D9D4 /* ZZPings.m */,
+				B954CC04203D4FBC00B8D9D4 /* ICMPHeader.h */,
+				B954CC05203D4FBD00B8D9D4 /* PQAPacket.h */,
+				B954CC06203D4FBD00B8D9D4 /* PQAPacket.m */,
+				B954CC07203D4FBD00B8D9D4 /* ZZPing.h */,
+				B954CC08203D4FBD00B8D9D4 /* ZZPing.m */,
 			);
 			path = ZZPings;
 			sourceTree = "<group>";
@@ -123,6 +135,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B954CC0A203D4FBD00B8D9D4 /* ZZPing.m in Sources */,
+				B954CC09203D4FBD00B8D9D4 /* PQAPacket.m in Sources */,
 				B954CBFD203D4DDE00B8D9D4 /* ZZPings.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -178,7 +192,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -227,7 +241,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
