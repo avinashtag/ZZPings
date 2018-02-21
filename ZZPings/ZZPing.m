@@ -258,7 +258,7 @@ static NSArray *prev = nil;
         
         if (isV6Enable) {
             self.isIPv6 = YES;
-            const char *address = [hostAddress UTF8String];
+//            const char *address = [hostAddress UTF8String];
             struct sockaddr_in6 serverAddr;
             serverAddr.sin6_family = AF_INET6;
             serverAddr.sin6_len = sizeof(serverAddr);
